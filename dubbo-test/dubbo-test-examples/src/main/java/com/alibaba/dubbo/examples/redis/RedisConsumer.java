@@ -32,6 +32,7 @@ public class RedisConsumer {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(config);
         context.start();
         Map<String, Object> cache = (Map<String, Object>) context.getBean("cache");
+//        RedisImpl cache = (RedisImpl) context.getBean("cache");
         cache.remove("hello");
         Object value = cache.get("hello");
         System.out.println(value);

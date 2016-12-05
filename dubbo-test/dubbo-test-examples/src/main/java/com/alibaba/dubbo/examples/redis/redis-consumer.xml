@@ -22,6 +22,6 @@
 
     <dubbo:application name="memcached-consumer"  />
     
-	<dubbo:reference id="cache" interface="java.util.Map" url="redis://10.20.153.10:6379" />
+	<dubbo:reference id="cache" interface="com.alibaba.dubbo.examples.redis.RedisInterface" url="redis://liuhanlong.top:6379" />
 
 </beans>

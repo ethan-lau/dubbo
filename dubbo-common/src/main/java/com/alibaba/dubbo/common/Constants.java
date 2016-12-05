@@ -577,8 +577,6 @@ public class Constants {
 
     public static final String GENERIC_SERIALIZATION_DEFAULT       = "true";
 
-    public static final String GENERIC_SERIALIZATION_BEAN          = "bean";
-
     /*
      * private Constants(){ }
      */
